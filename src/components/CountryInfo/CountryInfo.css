@@ -1,0 +1,58 @@
+.country-info{
+    width:100%;
+    padding : 70px 30px;
+}
+.select-box{
+    max-width: 150px;
+    z-index:999999;
+    cursor: pointer;
+}
+.article-info{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); /* see notes below */
+    gap : 15px 20px;
+    place-items: center;
+    width: 100%;
+    grid-template-rows: 285px;
+
+}
+.article-info .card-info:first-child{
+    border-bottom : 14px solid #FFAF10;
+}
+.article-info .card-info:nth-child(2){
+    border-bottom : 14px solid #16DFBA;
+}
+.article-info .card-info:last-child{
+    border-bottom : 14px solid #D42A01;
+}
+.card-info{
+    width:100%;
+    padding:8px;
+    transition : all .5s ease-in-out !important;
+    cursor : pointer;
+}
+.card-info:hover{
+    transform :translateY(10px) ;   
+}
+.card-media-info{
+    display:flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.info-icon{
+    font-size : 8em !important;
+}
+.text-info-{
+    color:black;
+}
+/* cases number */
+.MuiTypography-h2{
+    text-align:center;
+}
+/* cases & todayCases elements */
+.MuiTypography-body1,.MuiTypography-h2{
+    font-weight:bold  !important;
+}
+.MuiCardContent-root:last-child{
+    padding-bottom: 1px !important;
+}

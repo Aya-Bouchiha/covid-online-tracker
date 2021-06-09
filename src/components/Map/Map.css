@@ -1,0 +1,37 @@
+:root{
+    --cases-color : #FFAA00;
+    --recovered-color :#16DFBa ;
+    --deaths-color :#F42A01 ;
+}
+.article-map{
+    min-height:100vh;
+    padding: 10px 30px;
+}
+.leaflet-container{
+    min-height:100vh; /* !required  to specify the height*/
+}
+/* circleMarker */
+.circle-marker-cases .leaflet-interactive{
+    fill : var(--cases-color)      !important ;
+    stroke : var(--cases-color) !important ;
+}
+.circle-marker-recovered .leaflet-interactive{
+    fill : var(--recovered-color)      !important ;
+    stroke : var(--recovered-color) !important ;
+}
+.circle-marker-deaths .leaflet-interactive{
+    fill : var(--deaths-color)      !important ;
+    stroke : var(--deaths-color) !important ;
+}
+.title-map{
+    font-weight:600;
+}
+.circle-marker-cases .title-map{
+    color:var(--cases-color);
+}
+.circle-marker-recovered  .title-map{
+    color: var(--recovered-color);
+}
+.circle-marker-deaths  .title-map{
+    color: var(--deaths-color);
+}

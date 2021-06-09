@@ -1,0 +1,29 @@
+nav{
+    background-color: #000 !important;
+    display:flex;
+    flex-direction:row;
+    padding-right: 30px  !important ;
+    padding-left:30px    !important ;
+}
+.navbar-brand{
+    font-size:24px;
+    color:white !important;
+}
+.nav-link{
+    color: white !important;
+    cursor:pointer;
+    font-weight: 500;
+    font-size: 21px;
+    transition: all .5s ease-in-out;
+}
+.nav-link:hover{
+    color: #D42A01 !important;
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: center  !important;
+    }
+}
+div.MuiDrawer-root{ 
+    z-index:100002 !important;
+}
